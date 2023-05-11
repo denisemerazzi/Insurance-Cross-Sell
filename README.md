@@ -87,11 +87,21 @@ img9
 img10
 
 ## 6. Conversão dos resultados para o Produto Financeiro
+Considerando uma amostra de 127.000 novos clientes, para rankeamento de score e a realização de 20.000 ligações, escolher de forma aleatória significaria acertar 33%, enquanto o  modelo acerta 81%. Ainda, considerando uma receita mensal por cliente de R$2.000, a diferença entre a receita anual da escolha aleatória e a escolha sugerida pelo modelo é de R$ 1.463.040.000.
+
+img11
 
 ## 7. Conclusão
+As metas do projeto foram atingidas, a partir da construção de um modelo, capaz de ordenar os clientes em uma lista a partir de seu score, possibilitando ao time de vendas realizar as ligações de forma mais assertiva e eficiente, economizando tempo e recursos.
 
+img12
 
 ## 8. Próximos passos
-
+* Criar o DashBoard com os resultados no StreamLit.
+* Aplicar o finetunning para descobrisa parâmetros melhores para as features de treinamento do modelo.
+* Deploy do modelo.
 
 ## 9. Referências
+* Este projeto é baseado em um problema de negócio fictício, construído junto à Comunidade DS, como Projeto do Aluno 004 (PA004), onde cada aluno constrói a sua proposta de solução para o problema.
+* O dados forma coletados na plataforma Kaggle.
+* As imagens utilizadas são do meu acervo pessoal.
