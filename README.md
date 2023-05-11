@@ -52,18 +52,22 @@ j) Resultados: Os resultados poderão ser acessados através de um Dashbnorad in
 
 ## 4. Principais insights observados a partir da análise das hipóteses:
 * H01 - Homens e mulheres tem o mesmo interesse em adquirir o seguro de veículos: A hipótese é falsa, de acorod com os dados da base, homens tem mais interesse em aquirir o seguro. 
+
 img1
 
 * H02 - Clientes que já sofreram algum tipo de dano em seu carro, tem mais interesse em adquirir um seguro de carro A hipótese é verdadeira, observa-se uqe 97.9% das pessoas interessadas já sofreram algum tipo acidente no seu carro.
+
 img2
 
 * H3 - Clientes que possuem carros mais novos, tem mais interesse em comprar o seguro de carro: A hipótese é verdadeira, pois 89.9% dos interessados, possuem carros mais novos.
 img3
 
 * H4 - Apenas as pessoas que possuem carteira de motorista tem interesse em seguro de carro. A hipótese é falsa, porque, apesar de ser em uma pequena proporção, não é possível afirmar que todas as pessoas que não tem carteira de motorista também não querem o seguro de carro.
+
 img4
 
 * H5 - A idade do cliente influencia o interesse em seguro de carro: A hipótese é verdadeira. Podemos observar que existe uma faixa de maior interesse, em adquirir o seguro, de carro de 30 a 60 anos.
+
 img5
 
 ## 5. Resultado dos modelos de Machine Learning
