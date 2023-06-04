@@ -53,52 +53,53 @@ j) Resultados: Os resultados poderão ser acessados através de um Dashbnorad in
 ## 4. Principais insights observados a partir da análise das hipóteses:
 * H01 - Homens e mulheres tem o mesmo interesse em adquirir o seguro de veículos: A hipótese é falsa, de acorod com os dados da base, homens tem mais interesse em aquirir o seguro. 
 
-img1
+<img src='image/img1.png' />
 
 * H02 - Clientes que já sofreram algum tipo de dano em seu carro, tem mais interesse em adquirir um seguro de carro A hipótese é verdadeira, observa-se uqe 97.9% das pessoas interessadas já sofreram algum tipo acidente no seu carro.
 
-img2
+<img src='image/img2.png' />
 
 * H3 - Clientes que possuem carros mais novos, tem mais interesse em comprar o seguro de carro: A hipótese é verdadeira, pois 89.9% dos interessados, possuem carros mais novos.
-img3
+
+<img src='image/img3.png' />
 
 * H4 - Apenas as pessoas que possuem carteira de motorista tem interesse em seguro de carro. A hipótese é falsa, porque, apesar de ser em uma pequena proporção, não é possível afirmar que todas as pessoas que não tem carteira de motorista também não querem o seguro de carro.
 
-img4
+<img src='image/img4.png' />
 
 * H5 - A idade do cliente influencia o interesse em seguro de carro: A hipótese é verdadeira. Podemos observar que existe uma faixa de maior interesse, em adquirir o seguro, de carro de 30 a 60 anos.
 
-img5
+<img src='image/img5.png' />
 
 ## 5. Resultado dos modelos de Machine Learning
 Após o treinamento dos modelos, observou-se a sua performance através das métricas Recall@k e Precision@k, comparados a partir do método do CrossValidation:
 
-img6
+<img src='image/img6.png' />
 
 O modelo escolhido foi o LGBM, por apresentar a melhor performance.
 A sua capacidade de generalização, ou seja, a classificação de dados inéditos, foi medida pela Curve Cumulative Gain e Lift.
 Considerando as 20.000 primeiras ligações, observa-se que utilizar o modelo para fazer a escolha dos clientes interessados em adquirir o seguro, é 2.2 vezes melhor que escolher de forma aleatória.  
 Em 26% da base, o modelo acerta em 55% os clientes interessados.
 
-img7
+<img src='image/img7.png' />
 
-img8
+<img src='image/img8.png' />
 
 Ainda, ao utilizar 65,65% dos dados de validação, o que se traduziria em 40 mil ligações realizadas pela equipe de vendas, o modelo seria capaz de identificar 99,9% de pessoas do total de interessados em adquirir o seguro.
 
-img9
+<img src='image/img9.png' />
 
-img10
+<img src='image/img10.png' />
 
 ## 6. Conversão dos resultados para o Produto Financeiro
 Considerando uma amostra de 127.000 novos clientes, para rankeamento de score e a realização de 20.000 ligações, escolher de forma aleatória significaria acertar 33%, enquanto o  modelo acerta 81%. Ainda, considerando uma receita mensal por cliente de R$2.000, a diferença entre a receita anual da escolha aleatória e a escolha sugerida pelo modelo é de R$ 1.463.040.000.
 
-img11
+<img src='image/img11.png' />
 
 ## 7. Conclusão
 As metas do projeto foram atingidas, a partir da construção de um modelo, capaz de ordenar os clientes em uma lista a partir de seu score, possibilitando ao time de vendas realizar as ligações de forma mais assertiva e eficiente, economizando tempo e recursos.
 
-img12
+<img src='image/img12.png' />
 
 ## 8. Próximos passos
 * Criar o DashBoard com os resultados no StreamLit.
